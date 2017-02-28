@@ -1,4 +1,4 @@
-FROM corvis/tomcat
+FROM logicify/tomcat:latest
 
 USER app
 WORKDIR /srv/apache-tomcat
